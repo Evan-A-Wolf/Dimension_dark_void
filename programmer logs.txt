@@ -1,0 +1,14 @@
+10/10/2018 Evan Asher Wolfe was accepted into legend gaming studio. It's also on this day that I created this github repository, and I 
+started the code for the game. As of right now, the game is a sidescollerish turn based combat game. It is an RPG so stat trees and such
+are all going to be super important. My first step is going to be creating a title screen. Just to make it a bit easier to navigate between
+the parts of the game I'm going to need to demo. Like the battle system, moving around the overworld etc.
+
+10/11/2018 Start captains log: On this fateful day, the title screen for the commencement of the game was created. Now three empty rooms
+can be visited. The player movement test room, the enemy test room, and the battle system test room. These three rooms will be used quite
+a bit in the coming days. Even though GML is still my favorite language, and the one that I know the most of my time away from it has
+definetely had an impact. I'm beginning to find that my time away from it has taken it's toll. Even doing some simple things like making
+a title screen requires a large amount of time and affort. But hey, that's how we learn and get better right?
+
+I also managed to milk some more details out of prince, so now I know a bit more about how the battle system is going to work. He wants it
+to be like the old 2d zelda games battle system. I'm gonna try and find out more. I'm also gonna work a bit more on making the player
+character along with movement and such but that'll be about all for tonight.
