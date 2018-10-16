@@ -1,22 +1,23 @@
+//player input
 if (keyboard_check(keyUp)){
 	sprite_index = spr_player_up_temp;
 	image_xscale = 1;
-	vspd = -5;
+	vspd = -2.5;
 }
 if (keyboard_check(keyLeft)){
 	sprite_index = spr_player_side_temp;
 	image_xscale = -1;
-	hspd = -5;
+	hspd = -2.5;
 }
 if (keyboard_check(keyRight)){
 	sprite_index = spr_player_side_temp;
 	image_xscale = 1;
-	hspd = 5;
+	hspd = 2.5;
 }
 if (keyboard_check(keyDown)){
 	sprite_index = spr_player_down_temp;
 	image_xscale = 1;
-	vspd = 5;
+	vspd = 2.5;
 }
 if (!keyboard_check(keyUp) && !keyboard_check(keyDown)){
 	vspd = 0;

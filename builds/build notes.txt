@@ -1,0 +1,30 @@
+Build naming system:
+	all builds are named on a numbering system, along with a prefix of pre, alpha, beta, and stable.
+	Pre is for all builds before any part of the game is released to the public, patreon, or any other group of 
+people outside of the studio.
+	alpha is for all builds released to the public or to testers outside of the main group. Ie a beta/alpha tester.
+alpha builds will be released exclusivly to help find bugs, and have had very little previous testing.
+	Beta builds are all builds released to the public, or to the testers that has had some bug testing, but still
+needs more before it's complete.
+	Stable builds are builds that have been thouroughly tested for bugs by many members and should have few or no
+bugs left. Stable builds are released to the entire public through a mandatory steam update rather than a password
+blocked alpha/beta download or through github.
+
+Numbering system:
+The build number following the prefix adheres to the following format:
+[major release].[minor release].[bug fix].[non-code change]
+	the major relase is the number of major changes that have been made. Such as creating the base game, adding 
+levels etc.
+	The minor release is the number of minor changes that have been made. These are things that have a smaller
+effect on the game, things like balancing, changing the player speed, etc. 
+	The bug fix is the number of bug fixes to the game.
+	the non-code change is any change made to the game that does not affect the code, or does not require the code.
+Primarly these are asset updates.
+
+release pre-0.1.0.0
+The first build hurray! added a title screen, along with options to take you to the different rooms. Also added player
+movement and collisions. The first step is complete!
+
+release pre-0.1.1.0
+Found out that part of the collision code didn't save. Re-wrote it so now the collisions will work.
+

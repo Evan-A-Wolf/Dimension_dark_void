@@ -1,0 +1,50 @@
+audio:
+
+For the options, several things are needed. Primarly, the ability to turn sound, and music off.
+That'll be quite hard to do. I'm thinking that playing music and making sounds will be something along the
+lines of a variable. I'm thinking because there are going to be VA's, along with music, and sound effects of
+making a variable system. If the player chooses they can change the level of audio. It'll be between 1-10
+but on the code side will be divided by 10, so that at 10, the volume will be 1 or full and at 0, the volume 
+will be 0 or not there.
+
+This will be available for every type of sound, and there will also be a master sound which will do the math
+and scale the other sounds down based on what the master sound is set to in relation to what the other's are
+set to.
+
+gameplay:
+
+For the leveling system, I'm going to make it so that the player can choose between 1-10 based on levels, but
+based around levels of aptitude. Such as Novice, apprentice, adept, expert, master, legendary(to be changed
+later).
+
+it'll also include a bit of a cheat mode, kinda like what celeste has for players. This will allow the player
+to manually set the amount of damage taken, the amount of damage delt, the speed of heal and mana regen etc.
+
+Controls:
+this will allow the player to manually map their own controls.
+
+Graphics:
+the player can switch between full screen, and windowed. They can also change the color/theme of the ui
+
+variables needed:
+Audio:
+masterVolume = 1;
+voiceVolume = 1;
+sfxVolume = 1;
+musicVolume = 1;
+
+gameplay:
+levelAddition = 0;
+
+controls:
+keyUp = vk_up
+keyleft = vk_left
+keyRight = vk_right
+keyDown = vk_down
+
+keyAttack = mb_left
+keyBlock = mb_right
+
+fullscreen:
+fullscreen = false;
+uiColor = basic
